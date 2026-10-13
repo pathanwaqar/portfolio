@@ -50,3 +50,27 @@ a:focus-visible,button:focus-visible {outline:3px solid #a7ffcf;outline-offset:4
  .case-feature-strip__button {transition:none;}
  .case-feature-strip__button:hover {transform:none;}
 }
+/* Independent case-study document: no homepage JS required to reveal content. */
+.case-detail-page .reveal {opacity:1!important;transform:none!important;filter:none!important;visibility:visible!important;}
+.case-detail-page {background:radial-gradient(circle at 75% 5%,rgba(41,142,130,.11),transparent 28%),#07090d;}
+.case-page-header {display:flex;justify-content:space-between;align-items:center;gap:20px;padding:25px 0 20px;border-bottom:1px solid rgba(255,255,255,.12);}
+.case-page-logo {font-size:14px;font-weight:850;letter-spacing:.12em;display:flex;align-items:center;gap:14px;}
+.case-page-logo span {width:40px;height:40px;border:1px solid rgba(157,255,203,.4);background:rgba(146,248,191,.12);border-radius:12px;display:grid;place-items:center;color:#b6ffd6;letter-spacing:0;}
+.case-page-header nav {display:flex;gap:26px;align-items:center;color:#d5e5e9;font-size:13px;font-weight:650;}
+.case-page-header nav a:hover,.case-page-footer a:hover {color:#9cf4bd;}
+.case-detail-page .growth-section {padding-top:48px;}
+.case-bottom-cta {margin:0 auto 66px;padding:42px 36px;display:flex;flex-direction:column;align-items:flex-start;gap:12px;background:linear-gradient(135deg,#17392e,#101b24);border:1px solid rgba(151,246,201,.25);border-radius:24px;}
+.case-bottom-cta h2 {font-size:clamp(29px,4vw,47px);line-height:1.15;letter-spacing:-.045em;margin:0;}
+.case-bottom-cta p {color:#cfdfda;margin:0 0 12px;max-width:660px;}
+.case-page-footer {display:flex;justify-content:space-between;gap:15px;padding:22px 0 35px;border-top:1px solid rgba(255,255,255,.12);color:#a8b5c0;font-size:13px;}
+.case-skip-link {position:absolute;left:10px;top:-100px;background:#b1ffd0;color:#062417;padding:10px 16px;z-index:500;}
+.case-skip-link:focus {top:10px;}
+.hero-case-cta {font-weight:850!important;letter-spacing:0!important;}
+.hero-case-hint {font-size:12px;font-weight:650;color:#c3e5d4;margin:12px 0 0;line-height:1.5;}
+@media(max-width:760px){
+.case-page-header {align-items:flex-start;flex-direction:column;}
+.case-page-header nav {gap:15px;flex-wrap:wrap;font-size:12px;}
+.case-detail-page .growth-section {padding-top:20px;}
+.case-bottom-cta {padding:29px 22px;}
+.case-page-footer {flex-direction:column;}
+}
