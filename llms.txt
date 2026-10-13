@@ -1,0 +1,24 @@
+# Waqar Pathan — Software Engineering & AI Integration Portfolio
+
+Official portfolio: https://pathanwaqar.github.io/portfolio/
+Client case studies: https://pathanwaqar.github.io/portfolio/case-studies/
+GitHub: https://github.com/pathanwaqar
+
+## About
+Waqar Pathan is a full-stack software engineer focusing on TypeScript/Node.js, Python, REST APIs, webhooks, AI agents, SaaS development, CRM integrations, and workflow automation.
+
+## Case study index
+The case study collection contains eight selected projects involving demand generation, marketing and CRM systems, lead routing, data quality, deliverability, and reporting:
+- We Recycle Solar: lead qualification, outbound and CRM handoff; reported 157 MQLs in March 2026 and over $10M in pipeline opportunity.
+- Task Assembly: SaaS positioning, outreach workflows and analytics; reported 51% LinkedIn acceptance.
+- Flyover.io: email domain health and response workflows; reported 97.2% successful delivery.
+- TEC Mailing: conversion pages, CRM segmentation, and campaign reporting; reported 71% email opens.
+- Real Estate Investment Platform: audience-specific funnels and Pipedrive-triggered campaigns; reported approximately 50 hours monthly saved.
+- Novella: LinkedIn/Lemlist campaigns and product attribution; reported 58 attributed product installs.
+- Vitrum: CRM and sales outreach coordination; reported 81% email opens.
+- Uncommon Carrier: Lemlist-to-Pipedrive routing and segmented outreach; reported 6,041 prospects reached.
+
+Metrics above are reported project outcomes, not independently verified. Campaign periods and definitions vary. Reported sales pipeline is not closed revenue. See the case study pages for context, challenge, work, and outcome.
+
+## Services and engineering approach
+Full-stack application development, custom APIs, AI-powered workflows, CRM and RevOps integration, automated reporting, and resilient business automation. Technical approach emphasizes source-of-truth data ownership, input validation, idempotent sync, retry/error handling, logging, alerts and documentation.
