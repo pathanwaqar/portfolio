@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Public portfolio and case study pages are intended for indexing.
+Sitemap: https://pathanwaqar.github.io/portfolio/sitemap.xml
